@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\proects\\CargoBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\data\\kargodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:data\\kargodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\bothandlers\\botupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:bothandlers\\botupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\services\\trackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:services\\trackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\models\\parcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:models\\parcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\cargobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:cargobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\data\\kargodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:data\\kargodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\models\\userparcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:models\\userparcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\models\\parcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:models\\parcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\services\\trackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:services\\trackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\migrations\\kargodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:migrations\\kargodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\migrations\\20260413070508_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:migrations\\20260413070508_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|c:\\users\\admin\\proects\\cargobot\\cargobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27EB7A3E-1D89-6E63-88FB-F6E93246AEC8}|CargoBot.csproj|solutionrelative:cargobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 282,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,58 +90,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "KargoDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Migrations\\KargoDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\KargoDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Migrations\\KargoDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\KargoDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:59:31.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260413070508_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Migrations\\20260413070508_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260413070508_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Migrations\\20260413070508_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260413070508_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:59:31.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BotUpdateHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\BotHandlers\\BotUpdateHandler.cs",
               "RelativeDocumentMoniker": "BotHandlers\\BotUpdateHandler.cs",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\BotHandlers\\BotUpdateHandler.cs",
               "RelativeToolTip": "BotHandlers\\BotUpdateHandler.cs",
-              "ViewState": "AgIAACQAAAAA0MzMzMz8vy8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAgwCwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T06:50:14.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TrackingService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Services\\TrackingService.cs",
               "RelativeDocumentMoniker": "Services\\TrackingService.cs",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Services\\TrackingService.cs",
               "RelativeToolTip": "Services\\TrackingService.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwGIAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwHAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T06:49:29.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-13T06:38:49.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "KargoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Data\\KargoDbContext.cs",
               "RelativeDocumentMoniker": "Data\\KargoDbContext.cs",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Data\\KargoDbContext.cs",
               "RelativeToolTip": "Data\\KargoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:38:19.015Z"
+              "WhenOpened": "2026-04-13T06:38:19.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "UserParcel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Models\\UserParcel.cs",
               "RelativeDocumentMoniker": "Models\\UserParcel.cs",
@@ -141,11 +176,12 @@
               "RelativeToolTip": "Models\\UserParcel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:37:40.839Z"
+              "WhenOpened": "2026-04-13T06:37:40.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Parcel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Models\\Parcel.cs",
               "RelativeDocumentMoniker": "Models\\Parcel.cs",
@@ -158,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -166,35 +202,38 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:37:06.317Z"
+              "WhenOpened": "2026-04-13T06:37:06.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ExcelImportService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Services\\ExcelImportService.cs",
               "RelativeDocumentMoniker": "Services\\ExcelImportService.cs",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Services\\ExcelImportService.cs",
               "RelativeToolTip": "Services\\ExcelImportService.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAqwIMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAA3wHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:02:17.722Z"
+              "WhenOpened": "2026-04-13T06:02:17.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Admin\\proects\\CargoBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T05:59:38.372Z"
+              "WhenOpened": "2026-04-13T05:59:38.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CargoBot.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\proects\\CargoBot\\CargoBot.csproj",
               "RelativeDocumentMoniker": "CargoBot.csproj",

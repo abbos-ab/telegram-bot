@@ -23,12 +23,12 @@ namespace CargoBot.Services
 
             if (parcel == null) return "❌ Извините, данный трек-код не найден в базе.";
 
-            DateTime etaTajikistan = parcel.ArrivedAtChina.AddDays(20);
+            DateTime etaTajikistan = parcel.ArrivedAtChina.AddDays(25);
             double daysSinceArrival = (DateTime.UtcNow - parcel.ArrivedAtChina).TotalDays;
 
             string statusText = daysSinceArrival < 2
                 ? "📦 Прибыл на склад в Китае (Еще не отправлен)"
-                : daysSinceArrival < 20
+                : daysSinceArrival < 25
                     ? "🚛 В пути в Таджикистан"
                     : "🇹🇯 Прибыл в Таджикистан";
 
@@ -78,7 +78,7 @@ namespace CargoBot.Services
             foreach (var item in myParcels)
             {
                 var p = item.Parcel;
-                DateTime eta = p.ArrivedAtChina.AddDays(20);
+                DateTime eta = p.ArrivedAtChina.AddDays(25);
 
                 sb.AppendLine($"{count}) Трек код {p.TrackCode}:");
                 sb.AppendLine($"  - Вес: {p.Weight:0.000} кг");
@@ -94,7 +94,6 @@ namespace CargoBot.Services
         {
             try
             {
-                // Xitoyga kelganiga 60 kundan oshgan yuklarni topamiz
                 var thresholdDate = DateTime.UtcNow.AddDays(-60);
                 var oldParcels = _dbContext.Parcels.Where(p => p.ArrivedAtChina < thresholdDate);
 

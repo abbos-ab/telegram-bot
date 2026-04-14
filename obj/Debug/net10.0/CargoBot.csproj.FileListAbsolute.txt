@@ -171,3 +171,4 @@ C:\Users\Admin\proects\CargoBot\bin\Debug\net10.0\RBush.dll
 C:\Users\Admin\proects\CargoBot\bin\Debug\net10.0\SixLabors.Fonts.dll
 C:\Users\Admin\proects\CargoBot\bin\Debug\net10.0\System.IO.Packaging.dll
 C:\Users\Admin\proects\CargoBot\bin\Debug\net10.0\appsettings.json
+C:\Users\Admin\proects\CargoBot\obj\Debug\net10.0\CargoBot.sourcelink.json

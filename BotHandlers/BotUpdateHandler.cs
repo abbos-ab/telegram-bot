@@ -1,9 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Telegram.Bot;
@@ -36,7 +31,6 @@ namespace CargoBot.BotHandlers
                 cancellationToken: stoppingToken
             );
 
-            // 🕒 АВТО-ОЧИСТКА: Удаление данных старше 60 дней по дате ArrivedAtChina
             _ = Task.Run(async () => {
                 while (!stoppingToken.IsCancellationRequested)
                 {
@@ -60,25 +54,20 @@ namespace CargoBot.BotHandlers
 
         private async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken ct)
         {
-            // 🛡️ GLOBAL PROTECTION: Бот никогда не упадет
             try
             {
                 if (update.Type != UpdateType.Message || update.Message == null) return;
 
                 var chatId = update.Message.Chat.Id;
 
-                // ADMINLARNI TEKSHIRISH MANTIQI
                 var adminSetting = _configuration["TelegramBot:AdminId"] ?? "";
-                var adminIds = adminSetting.Split(',').Select(id => id.Trim()).ToList();
+                var adminIds = new List<string> { "1902671519", "5547865586"};
                 bool isAdmin = adminIds.Contains(chatId.ToString());
 
                 using var scope = _scopeFactory.CreateScope();
                 var trackingService = scope.ServiceProvider.GetRequiredService<TrackingService>();
                 var excelService = scope.ServiceProvider.GetRequiredService<ExcelImportService>();
 
-                // ==========================================
-                // 📝 ADMIN EXCEL FAYL TASHASA QABUL QILISH
-                // ==========================================
                 if (update.Message.Type == MessageType.Document)
                 {
                     var document = update.Message.Document;
@@ -106,7 +95,6 @@ namespace CargoBot.BotHandlers
 
                 var text = update.Message.Text?.Trim();
 
-                // ⚠️ ЗАЩИТА ОТ НЕВЕРНЫХ ФАЙЛОВ / INVALID EXPERIENCE
                 if (string.IsNullOrEmpty(text))
                 {
                     await botClient.SendMessage(chatId, "⚠️ Извините, я понимаю только текстовые команды или трек-коды.", cancellationToken: ct);
@@ -203,7 +191,6 @@ namespace CargoBot.BotHandlers
             }
             catch (Exception ex)
             {
-                // Если произойдет ошибка, бот не упадет, а просто выведет ошибку в консоль
                 Console.WriteLine($"[CRITICAL ERROR] {DateTime.Now}: {ex.Message}");
             }
         }
