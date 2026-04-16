@@ -1,20 +1,33 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CargoBot.BotHandlers;
+using CargoBot.Data;
+using CargoBot.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using System;
 using Telegram.Bot;
-using CargoBot.Data;
-using CargoBot.Services;
-using CargoBot.BotHandlers;
 
 var host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
     {
         var connection = Environment.GetEnvironmentVariable("DATABASE_URL");
 
+        var uri = new Uri(connection);
+
+        var userInfo = uri.UserInfo.Split(':');
+
+        var connString =
+            $"Host={uri.Host};" +
+            $"Port={uri.Port};" +
+            $"Username={userInfo[0]};" +
+            $"Password={userInfo[1]};" +
+            $"Database={uri.AbsolutePath.Trim('/')};" +
+            $"SSL Mode=Require;Trust Server Certificate=true";
+
         services.AddDbContext<KargoDbContext>(options =>
-            options.UseNpgsql(connection));
+            options.UseNpgsql(connString));
 
         var botToken = "8697322298:AAEbwhwypGsk4PKKMk8p4LbahOFeW98arAU";
 
