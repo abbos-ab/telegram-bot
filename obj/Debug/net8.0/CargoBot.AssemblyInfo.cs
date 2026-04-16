@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CargoBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4ae9adfe159d0a8b88b2a99f5575683e4a50b2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66353ab7d8f67f2365d76623156cf04d1e8cce4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CargoBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CargoBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

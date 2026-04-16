@@ -11,8 +11,10 @@ using CargoBot.BotHandlers;
 var host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
     {
+        var connection = Environment.GetEnvironmentVariable("DATABASE_URL");
+
         services.AddDbContext<KargoDbContext>(options =>
-            options.UseSqlite(context.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(connection));
 
         var botToken = "8697322298:AAEbwhwypGsk4PKKMk8p4LbahOFeW98arAU";
 
