@@ -12,7 +12,7 @@ var host = Host.CreateDefaultBuilder(args)
         services.AddDbContext<KargoDbContext>(options =>
             options.UseSqlite("Data Source=cargo.db"));
 
-        var botToken = "8697322298:AAEbwhwypGsk4PKKMk4LbahOFeW98arAU";
+        var botToken = "8697322298:AAEbwhwypGsk4PKKMk8p4LbahOFeW98arAU";
 
         if (string.IsNullOrEmpty(botToken))
         {
